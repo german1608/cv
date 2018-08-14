@@ -1,0 +1,35 @@
+{
+  "name": "cv",
+  "version": "1.0.0",
+  "description": "<a href=\"https://themes.3rdwavemedia.com/bootstrap-templates/resume/orbit-free-resume-cv-bootstrap-theme-for-developers/\" target=\"_blank\"><img src=\"https://themes.3rdwavemedia.com/wp-content/uploads/2018/07/Bootstrap-Resume-CV-Template-for-Developers.jpg\" alt=\"Bootstrap 4 Resume/CV Template for Developers\" /></a>",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config webpack.prod.js",
+    "start": "webpack-dev-server --open --config webpack.dev.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/german1608/cv.git"
+  },
+  "author": "German Robayo <germanrobayo33@gmail.com> (https://german1608.github.io)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/german1608/cv/issues"
+  },
+  "homepage": "https://github.com/german1608/cv#readme",
+  "devDependencies": {
+    "clean-webpack-plugin": "^0.1.19",
+    "css-loader": "^1.0.0",
+    "file-loader": "^1.1.11",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "style-loader": "^0.22.1",
+    "webpack": "^4.16.5",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.5",
+    "webpack-merge": "^4.1.4"
+  },
+  "dependencies": {
+    "eslint": "^5.3.0"
+  }
+}
